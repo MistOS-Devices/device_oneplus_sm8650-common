@@ -1,18 +1,60 @@
 [
   {
-    "repository": "android_hardware_oplus",
-    "target_path": "hardware/oplus"
+    "repository": "aosp-for-giulia/android_kernel_oneplus_sm8650",
+    "target_path": "kernel/oneplus/sm8650",
+    "branch": "lineage-23.2",
+    "remote": "github-non-los",
+    "depth": 1
   },
   {
-    "repository": "android_kernel_oneplus_sm8650",
-    "target_path": "kernel/oneplus/sm8650"
+    "repository": "aosp-for-giulia/android_kernel_oneplus_sm8650-devicetrees",
+    "target_path": "kernel/oneplus/sm8650-devicetrees",
+    "branch": "lineage-23.2",
+    "remote": "github-non-los",
+    "depth": 1
   },
   {
-    "repository": "android_kernel_oneplus_sm8650-devicetrees",
-    "target_path": "kernel/oneplus/sm8650-devicetrees"
+    "repository": "aosp-for-giulia/android_kernel_oneplus_sm8650-modules",
+    "target_path": "kernel/oneplus/sm8650-modules",
+    "branch": "derp-16.2",
+    "remote": "github-non-los",
+    "depth": 1
   },
   {
-    "repository": "android_kernel_oneplus_sm8650-modules",
-    "target_path": "kernel/oneplus/sm8650-modules"
+    "repository": "aosp-for-giulia/android_hardware_oplus",
+    "target_path": "hardware/oplus",
+    "branch": "derp-16.2",
+    "remote": "github-non-los"
+  },
+  {
+    "repository": "aosp-for-giulia/proprietary_vendor_oneplus_sm8650-common",
+    "target_path": "vendor/oneplus/sm8650-common",
+    "branch": "derp-16.2",
+    "remote": "github-non-los"
+  },
+  {
+    "repository": "aosp-for-giulia/vendor_oneplus_ir",
+    "target_path": "vendor/oneplus/ir",
+    "branch": "16",
+    "remote": "github-non-los"
+  },
+  {
+    "repository": "aosp-for-giulia/proprietary_vendor_sony_dolby",
+    "target_path": "vendor/sony/dolby",
+    "branch": "16-LD",
+    "remote": "github-non-los"
+  },
+  {
+    "repository": "aosp-for-giulia/android_packages_apps_LunarisDolby",
+    "target_path": "packages/apps/LunarisDolby",
+    "branch": "16",
+    "remote": "github-non-los"
+  },
+  {
+    "repository": "kenway214/packages_apps_GameBar",
+    "target_path": "packages/apps/GameBar",
+    "branch": "lineage-23.2",
+    "remote": "github-non-los"
   }
 ]
+
