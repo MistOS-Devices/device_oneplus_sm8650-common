@@ -41,7 +41,7 @@
   {
     "repository": "aosp-for-giulia/proprietary_vendor_sony_dolby",
     "target_path": "vendor/sony/dolby",
-    "branch": "16-LD",
+    "branch": "16-Lunaris",
     "remote": "github-non-los"
   },
   {
