@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+$(shell sed -i 's/        true: \["-DUSE_EFFECT_STREAM"\]/        "true": ["-DUSE_EFFECT_STREAM"]/' $(TOPDIR)vendor/qcom/opensource/vibrator/aidl/VibratorOL/Android.bp)
+
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
