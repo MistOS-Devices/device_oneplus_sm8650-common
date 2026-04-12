@@ -55,23 +55,22 @@
     "target_path": "packages/apps/GameBar",
     "branch": "lineage-23.2",
     "remote": "github-non-los"
+  },
+  {
+    "repository": "ShivaOPP/frameworks_base_qpr2",
+    "target_path": "frameworks/base",
+    "branch": "16.2"
+  },
+  {
+    "repository": "ShivaOPP/packages_apps_settings",
+    "target_path": "packages/apps/Settings",
+    "branch": "main",
+    "override": true
+  },
+  {
+    "repository": "yaap/vendor_qcom_opensource_vibrator",
+    "target_path": "vendor/qcom/opensource/vibrator",
+    "branch": "sixteen",
+    "override": true
   }
-  {
-    "repository": "ShivaOPP/frameworks_base_qpr2",
-    "target_path": "frameworks/base",
-    "branch": "16.2"
-  },
-  {
-    "repository": "ShivaOPP/packages_apps_settings",
-    "target_path": "packages/apps/Settings",
-    "branch": "main",
-    "override": true
-  }
-  {
-    "repository": "yaap/vendor_qcom_opensource_vibrator",
-    "target_path": "vendor/qcom/opensource/vibrator",
-    "branch": "sixteen",
-    "override": true
-  }
 ]
-
