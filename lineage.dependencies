@@ -59,7 +59,8 @@
   {
     "repository": "ShivaOPP/frameworks_base_qpr2",
     "target_path": "frameworks/base",
-    "branch": "16.2"
+    "branch": "16.2",
+    "override": tr
   },
   {
     "repository": "ShivaOPP/packages_apps_settings",
