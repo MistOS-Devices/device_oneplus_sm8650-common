@@ -16,7 +16,7 @@
   {
     "repository": "aosp-for-giulia/android_kernel_oneplus_sm8650-modules",
     "target_path": "kernel/oneplus/sm8650-modules",
-    "branch": "derp-16.2",
+    "branch": "16.2",
     "remote": "github-non-los",
     "depth": 1
   },
@@ -29,7 +29,7 @@
   {
     "repository": "aosp-for-giulia/proprietary_vendor_oneplus_sm8650-common",
     "target_path": "vendor/oneplus/sm8650-common",
-    "branch": "derp-16.2",
+    "branch": "16.2",
     "remote": "github-non-los"
   },
   {
@@ -41,7 +41,7 @@
   {
     "repository": "aosp-for-giulia/proprietary_vendor_sony_dolby",
     "target_path": "vendor/sony/dolby",
-    "branch": "16-Lunaris",
+    "branch": "16",
     "remote": "github-non-los"
   },
   {
@@ -55,18 +55,6 @@
     "target_path": "packages/apps/GameBar",
     "branch": "lineage-23.2",
     "remote": "github-non-los"
-  },
-  {
-    "repository": "ShivaOPP/frameworks_base_qpr2",
-    "target_path": "frameworks/base",
-    "branch": "16.2",
-    "override": true
-  },
-  {
-    "repository": "ShivaOPP/packages_apps_settings",
-    "target_path": "packages/apps/Settings",
-    "branch": "main",
-    "override": true
   },
   {
     "repository": "yaap/vendor_qcom_opensource_vibrator",
